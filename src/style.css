@@ -1,0 +1,61 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+}
+input{
+    border-radius: 8px;
+    border: none;
+    padding: 6px 16px;
+}
+button{
+    border-radius: 8px;
+    border: none;
+    color: #ff6f6f;
+    cursor: url("snowman.png")16 16, pointer;
+
+}
+button:hover{
+    background-color: #ffecec;
+    cursor: url("snowman.png")16 16, pointer;
+}
+.input-area{
+    margin: 8px;
+    padding: 8px;
+    background-color: #c6e5d9;
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+}
+.incomplete-area{
+    border: 2px solid #aacfd0;
+    width: 400px;
+    padding: 8px;
+    margin: 8px;
+    min-height: 200px;
+    border-radius: 8px;
+
+}
+.complete-area{
+        border: 2px solid #32c8cd;
+    width: 400px;
+    padding: 8px;
+    margin: 8px;
+    min-height: 200px;
+    border-radius: 8px;
+    background-color: #aacfd0;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-row{
+    display: flex;
+    align-items: center;
+}
+
+.todo-item{
+    margin: 6px;
+}
+
+
